@@ -10,11 +10,11 @@ Only the formulas on `main` (the newest release of each product). Updating is th
 
 Please **don't** open a public issue, discussion or pull request for a security problem.
 
-1. Go to the **Security** tab of this repository and click **[Report a vulnerability](https://github.com/Phygital-Key/homebrew-tap/security/advisories/new)**. Only the maintainers see it.
+1. Go to the **Security** tab of this repository and click **[Report a vulnerability](https://github.com/Phygital-Brain/homebrew-tap/security/advisories/new)**. Only the maintainers see it.
 2. Say which formula and version, and what you saw.
 3. Never send real tokens, keys or private data.
 
-Problems in a product itself go to its repository: [Phygital Key MCP](https://github.com/Phygital-Key/phygital-key-mcp/security/advisories/new), [Phygital Key A2A](https://github.com/Phygital-Key/phygital-key-a2a/security/advisories/new) or the shared base [Phygital Key](https://github.com/Phygital-Key/phygital-key/security/advisories/new).
+Problems in a product itself go to its repository: [Phygital Key MCP](https://github.com/Phygital-Brain/phygital-key-mcp/security/advisories/new), [Phygital Key A2A](https://github.com/Phygital-Brain/phygital-key-a2a/security/advisories/new) or the shared base [Phygital Key](https://github.com/Phygital-Brain/phygital-key/security/advisories/new).
 
 ## What happens next
 
@@ -40,5 +40,5 @@ Please keep the problem private until the fix is out, or for 90 days, whichever 
 
 ## Keeping your own setup safe
 
-- Install with `brew install phygital-key/tap/<formula>` and keep Homebrew updated.
+- Install with `brew install phygital-brain/tap/<formula>` and keep Homebrew updated.
 - Brew checks the SHA-256 for you. If it ever reports a mismatch, stop and report it here.
