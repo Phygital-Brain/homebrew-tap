@@ -2,28 +2,28 @@
 class PhygitalKeyMcp < Formula
   desc "Phygital Key MCP: approve exact AI actions with a passkey or hardware key"
   homepage "https://github.com/Phygital-Brain/phygital-key-mcp"
-  version "0.6.2"
+  version "0.6.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-aarch64-apple-darwin.tar.gz"
-      sha256 "3d784ac70e8f59614b354e87ffa0a92f91b8cb595f7e72ef022bd510303c23b1"
+      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.3/phygital-key-mcp-v0.6.3-aarch64-apple-darwin.tar.gz"
+      sha256 "02c15ca9b0a02611b7957b6f3c95f869b0a1f2f17eb31e9f359b8e23c5bd82f0"
     end
     on_intel do
-      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-x86_64-apple-darwin.tar.gz"
-      sha256 "f348ffd670d4a2f1ff9bb99c8737d2818a8b316b1965822fd485a4d20250f43e"
+      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.3/phygital-key-mcp-v0.6.3-x86_64-apple-darwin.tar.gz"
+      sha256 "a753aedee0b854807afcaee1e246244415b92e9ecd513ce33f433ca9c63d5c2d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b1fe711154f272696653cf823fc1d0e278ea1d62376de9eed68a7186ed118e00"
+      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.3/phygital-key-mcp-v0.6.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e4854156a6d4164850db71c2678109d6f774605ee380fad327150869c0d6523b"
     end
     on_intel do
-      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c7876a521bd045467848783029f9acb3315c76a749e6a77c51469bca1ee09f52"
+      url "https://github.com/Phygital-Brain/phygital-key-mcp/releases/download/v0.6.3/phygital-key-mcp-v0.6.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6edc1899bd563648429c5fc41018f8d018d37705bb25d3813d94f27c440e410c"
     end
   end
 

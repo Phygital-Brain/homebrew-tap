@@ -2,28 +2,28 @@
 class PhygitalKeyA2a < Formula
   desc "Phygital Key A2A: approve exact AI actions with a passkey or hardware key"
   homepage "https://github.com/Phygital-Brain/phygital-key-a2a"
-  version "0.3.1"
+  version "0.3.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.1/phygital-key-a2a-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "f91f2e9fc9c9a5eca438e7497f5364bae874c9c9a4a105f4f7cb46230ccaca26"
+      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.2/phygital-key-a2a-v0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "dfdd4c7308c9513d87d1af547b5665f434f5d8928669f459aaeb4dd9a0e2c31d"
     end
     on_intel do
-      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.1/phygital-key-a2a-v0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "aeb1546e22e014484a2485dabbeacba25b9fc05e2f42e8338dea25869ea473e2"
+      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.2/phygital-key-a2a-v0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "a2f77ad3a71b8aeed838cae20814d007e8e46bbcd92aa1d159edbbcb22be071b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.1/phygital-key-a2a-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b42849037680ee234d6f0709085375ef9742a76f710af7fd1755a52b134a698f"
+      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.2/phygital-key-a2a-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "110c2bb78798bc8d69106bed293df17e645f6e02735667ac2de8175aab2722d5"
     end
     on_intel do
-      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.1/phygital-key-a2a-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0c7a0b89b8fd7545ca707cb33e04dd2ca5a02304bf958b999fba21983766e27c"
+      url "https://github.com/Phygital-Brain/phygital-key-a2a/releases/download/v0.3.2/phygital-key-a2a-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "197a7ad7225440c279b232287db5e9a7dc24d3fcafed22628160dff10b18a3c3"
     end
   end
 
